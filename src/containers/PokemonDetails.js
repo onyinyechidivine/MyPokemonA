@@ -1,5 +1,5 @@
 import React from "react";
-import axios from "axios";
+import axios from "axios"
 import { POKEMON_API_URL } from "../config";
 import { ClipLoader } from "react-spinners";
 import { useMatch } from "react-router-dom";
