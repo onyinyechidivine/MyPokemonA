@@ -15,7 +15,7 @@ export default function Pokedex(){
 
                     const { results } = response.data;
                      let newpokemonData = [];
-                     results.map((pokemon, index) => {
+                     results.forEach((pokemon, index) => {
                          index++
                          let pokemonObject = { 
                              id: index,
